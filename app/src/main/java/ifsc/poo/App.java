@@ -13,6 +13,9 @@ public class App {
 
         draw.setXscale(0, 1000);
         draw.setYscale(0, 600); 
+
+        Gradle gradle = new Gradle();
+        gradle.desenhar(draw);
     }
     
     public static void main(String[] args) {
