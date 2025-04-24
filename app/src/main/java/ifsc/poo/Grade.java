@@ -2,10 +2,14 @@ package ifsc.poo;
 
 import edu.princeton.cs.algs4.Draw;
 
-public class Gradle {
+public class Grade {
     private int x;
     private int y;
     private final int tamanhoGrade = 40;
+
+    public Grade(){
+
+    }
 
     public Draw desenhar(Draw obj){
         this.x = 10; // Número de linhas
