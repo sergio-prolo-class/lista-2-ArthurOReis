@@ -10,12 +10,11 @@ public class App {
         this.draw.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
 
         draw.setCanvasSize(1000, 600);
-
         draw.setXscale(0, 1000);
         draw.setYscale(0, 600); 
 
-        Gradle gradle = new Gradle();
-        gradle.desenhar(draw);
+        Grade grade = new Grade();
+        grade.desenhar(draw);
     }
     
     public static void main(String[] args) {
