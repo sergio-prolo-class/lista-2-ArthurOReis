@@ -82,4 +82,4 @@ tabuleiro do jogador, enquanto a grade da direita representará os alvos do joga
 
 ## Conclusões
 
-Apesar de não ter conseguido finalizar a etapa 4, principalmente por conta de problemas relacionados ao tamanho da janela e à criação de uma segunda grade, consegui realizar com sucesso as três primeiras etapas.
+Apesar de alguns desafios enfrentados, especialmente na implementação da segunda grade e na manipulação de rótulos, o projeto foi concluído com sucesso. A construção das classes `Grade` e `Navio`, bem como sua integração, resultou em uma aplicação funcional e alinhada aos objetivos propostos.
