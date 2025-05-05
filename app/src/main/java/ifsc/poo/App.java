@@ -14,10 +14,6 @@ public class App {
         draw.setXscale(0, 1000);
         draw.setYscale(0, 600); 
 
-        // A grade é criada
-        Grade grade = new Grade();
-        grade.desenhar(draw);
-
         // Os navios são desenhados conforme orientado na etapa 4
         Navio navio1 = new Navio(4, 1, 1, false);
         Navio navio2 = new Navio(5, 4, 3, true);
@@ -31,6 +27,10 @@ public class App {
         navio3.desenhar(draw);
         navio4.desenhar(draw);
         navio5.desenhar(draw);
+
+        // A grade é criada
+        Grade grade = new Grade();
+        grade.desenhar(draw);
     }
     
     public static void main(String[] args) {
