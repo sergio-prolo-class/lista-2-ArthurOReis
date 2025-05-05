@@ -15,6 +15,9 @@ public class App {
 
         Grade grade = new Grade();
         grade.desenhar(draw);
+
+        Navio navio = new Navio(5, 4, 3, true);
+        navio.desenhar(draw);
     }
     
     public static void main(String[] args) {
