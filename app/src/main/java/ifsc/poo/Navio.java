@@ -22,10 +22,10 @@ public class Navio {
         for (int i = 0; i < tamanho; i++) {
             double x, y;
 
-            if (orientacao) { // sentido vertical
+            if (orientacao) { // desenha o quadrado no sentido vertical
                 x = (linha + 0.5) * tamanhoGrade;
                 y = (coluna + i + 0.5) * tamanhoGrade;
-            } else { // sentido horizontal
+            } else { // desenha o quadrado no sentido horizontal
                 x = (linha + i + 0.5) * tamanhoGrade;
                 y = (coluna + 0.5) * tamanhoGrade;
             }
