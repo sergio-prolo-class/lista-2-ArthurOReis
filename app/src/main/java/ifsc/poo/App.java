@@ -16,8 +16,18 @@ public class App {
         Grade grade = new Grade();
         grade.desenhar(draw);
 
-        Navio navio = new Navio(5, 4, 3, true);
-        navio.desenhar(draw);
+        Navio navio1 = new Navio(4, 1, 1, false);
+        Navio navio2 = new Navio(5, 4, 3, true);
+        Navio navio3 = new Navio(3, 6, 2, true);
+        Navio navio4 = new Navio(3, 8, 6, true);
+        Navio navio5 = new Navio(2, 2, 9, false);
+
+        // Desenhar navios na grade do jogador
+        navio1.desenhar(draw);
+        navio2.desenhar(draw);
+        navio3.desenhar(draw);
+        navio4.desenhar(draw);
+        navio5.desenhar(draw);
     }
     
     public static void main(String[] args) {
